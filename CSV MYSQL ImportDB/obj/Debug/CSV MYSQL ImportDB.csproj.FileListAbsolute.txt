@@ -49,9 +49,7 @@ D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\obj\Debug\CSV MYSQL ImportDB.csproj
 D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\obj\Debug\CSV MYSQL ImportDB.exe
 D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\obj\Debug\CSV MYSQL ImportDB.pdb
 D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\obj\Debug\CSV MYSQL ImportDB.csproj.AssemblyReference.cache
-D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\CsvHelper.dll
 D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\Microsoft.Bcl.HashCode.dll
-D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\CsvHelper.xml
 D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
 D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\Microsoft.Bcl.HashCode.xml

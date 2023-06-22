@@ -2,8 +2,8 @@
 using System.Windows.Input;
 using System.IO;
 using MySql.Data.MySqlClient;
-using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 
 namespace CSV_MYSQL_ImportDB.ViewModels
 {
@@ -31,6 +31,19 @@ namespace CSV_MYSQL_ImportDB.ViewModels
             {
                 _databaseName = value;
                 OnPropertyChanged(nameof(DatabaseName));
+            }
+        }
+        #endregion
+
+        #region HostName
+        private string _hostName;
+        public string HostName
+        {
+            get => _hostName;
+            set
+            {
+                _hostName = value;
+                OnPropertyChanged(nameof(HostName));
             }
         }
         #endregion
@@ -74,18 +87,50 @@ namespace CSV_MYSQL_ImportDB.ViewModels
         }
         #endregion
 
+        #region Pregress
+        private int _progress;
+        public int Progress
+        {
+            get => _progress;
+            set
+            {
+                _progress = value;
+                OnPropertyChanged(nameof(Progress));
+            }
+        }
+        #endregion
+
+        #region TotalRegisters
+        private int _totalRegisters;
+        public int TotalRegisters
+        {
+            get => _totalRegisters;
+            set
+            {
+                _totalRegisters = value;
+                OnPropertyChanged(nameof(TotalRegisters));
+            }
+        }
+        #endregion
+
         public ICommand StartDBCommand { get; set; }
 
         private DBConnection _connection;
 
         public MainWindowVM()
         {
-            StartDBCommand = new RelayCommand(ExecuteCsvExtractData, CanExecuteCsvExtractData);
+            _progress = 0;
+            StartDBCommand = new RelayCommand(p => ExecuteCsvExtractData());
         }
 
-        public void ExecuteCsvExtractData(object obj)
+        public void ExecuteCsvExtractData()
         {
+            _connection = new DBConnection(_hostName, _databaseName, _userName, _password ?? "");
+            new Thread(p => Exec()).Start();
+        }
 
+        private void Exec()
+        {
             try
             {
                 MySqlCommand _cmd = new MySqlCommand();
@@ -98,14 +143,17 @@ namespace CSV_MYSQL_ImportDB.ViewModels
                     _connection.OpenConnetion();
                     _cmd.Connection = _connection.GetConnection();
 
+                    int processedLines = 0;
+                    TotalRegisters = File.ReadLines(_filePath).Count();
+
+
                     while (!reader.EndOfStream)
                     {
                         string line = reader.ReadLine();
                         string[] values = line.Split(',');
 
                         for (int i = 0; i < values.Length; i++)
-                        {
-                            // Verifica se o valor é vazio ou em branco
+                        {                            
                             if (string.IsNullOrWhiteSpace(values[i]))
                             {
                                 values[i] = "null";
@@ -114,6 +162,9 @@ namespace CSV_MYSQL_ImportDB.ViewModels
 
                         _cmd.CommandText = $"INSERT INTO {_tableName} ({string.Join(", ", columnNames.Select(column => column.Trim('\"')))}) VALUES ({string.Join(", ", values)})";
                         _cmd.ExecuteNonQuery();
+
+                        processedLines++;
+                        Progress = processedLines;
                     }
 
                 }
@@ -126,12 +177,6 @@ namespace CSV_MYSQL_ImportDB.ViewModels
             {
                 _connection.CloseConnetion();
             }
-        }
-
-        private bool CanExecuteCsvExtractData(object obj)
-        {
-            _connection = new DBConnection("127.0.0.1", "test", "root", "");
-            return true;
         }
     }
 }
