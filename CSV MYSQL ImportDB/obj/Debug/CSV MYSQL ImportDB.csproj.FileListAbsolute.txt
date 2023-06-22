@@ -1,0 +1,57 @@
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\obj\Debug\MainWindow.g.cs
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\obj\Debug\App.g.cs
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\obj\Debug\CSV MYSQL ImportDB_MarkupCompile.cache
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\obj\Debug\CSV MYSQL ImportDB_MarkupCompile.lref
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\CSV MYSQL ImportDB.exe.config
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\CSV MYSQL ImportDB.exe
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\CSV MYSQL ImportDB.pdb
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\BouncyCastle.Crypto.dll
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\Google.Protobuf.dll
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\K4os.Compression.LZ4.dll
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\K4os.Hash.xxHash.dll
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\MaterialDesignColors.dll
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\MySql.Data.dll
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\System.Buffers.dll
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\System.IO.Pipelines.dll
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\System.Memory.dll
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\System.Numerics.Vectors.dll
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\BouncyCastle.Crypto.xml
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\Google.Protobuf.pdb
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\Google.Protobuf.xml
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\K4os.Compression.LZ4.xml
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\K4os.Hash.xxHash.xml
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\MaterialDesignColors.pdb
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\Microsoft.Xaml.Behaviors.xml
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\MySql.Data.xml
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\System.Buffers.xml
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\System.IO.Pipelines.xml
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\System.Memory.xml
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\System.Numerics.Vectors.xml
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\obj\Debug\App.baml
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\obj\Debug\MainWindow.baml
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\obj\Debug\CSV MYSQL ImportDB.g.resources
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\obj\Debug\CSV_MYSQL_ImportDB.Properties.Resources.resources
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\obj\Debug\CSV MYSQL ImportDB.csproj.GenerateResource.cache
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\obj\Debug\CSV MYSQL ImportDB.csproj.CoreCompileInputs.cache
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\obj\Debug\CSV MYSQL ImportDB.csproj.CopyComplete
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\obj\Debug\CSV MYSQL ImportDB.exe
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\obj\Debug\CSV MYSQL ImportDB.pdb
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\obj\Debug\CSV MYSQL ImportDB.csproj.AssemblyReference.cache
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\CsvHelper.dll
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\Microsoft.Bcl.HashCode.dll
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\CsvHelper.xml
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\dev\CSV MYSQL ImportDB\CSV MYSQL ImportDB\bin\Debug\Microsoft.Bcl.HashCode.xml
